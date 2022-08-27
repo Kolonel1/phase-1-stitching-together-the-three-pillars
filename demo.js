@@ -17,7 +17,7 @@ const colorStates = {
  const articleHearts = document.querySelectorAll(".like-glyph");
 
 function likeCallback(e) {
-  const heart = e.target;
+  const heart = e.target;    //what does e.target do i think it directs us to the target
   mimicServerCall()
     .then(function(serverMessage){
       // STEP 2: Uncomment the 3 lines after the alert.
